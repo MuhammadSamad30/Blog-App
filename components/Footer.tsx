@@ -66,7 +66,7 @@ const Footer = () => {
 
       <div className="mt-8 border-t border-gray-700 pt-4 text-center">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} Shop.Co. All rights reserved.
+          &copy; {new Date().getFullYear()} Blog App. All rights reserved.
         </p>
         <p className="text-sm mt-2">
           Developed by{' '}
