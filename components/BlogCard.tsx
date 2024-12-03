@@ -26,7 +26,7 @@ export default function BlogCard() {
   return (
     <div className="flex h-screen">
       <div
-        className={` z-40 top-0 left-0 w-64 bg-gray-800 text-white h-full p-4 overflow-y-auto transform ${
+        className={`fixed z-40 top-0 left-0 w-64 bg-gray-800 text-white h-full p-4 overflow-y-auto transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } md:translate-x-0 transition-transform duration-300`}>
         <h2 className="text-xl font-bold mb-4">Lectures</h2>
@@ -49,7 +49,7 @@ export default function BlogCard() {
         {isSidebarOpen ? "Close" : "Menu"}
       </button>
 
-      <div className="flex-1 p-6 md:ml-[1%]">
+      <div className="flex-1 p-6 md:ml-[20%]">
         {selectedLecture ? (
           <div>
             <h2 className="text-2xl font-bold mb-4 text-[#85e459]">{selectedLecture.title}</h2>

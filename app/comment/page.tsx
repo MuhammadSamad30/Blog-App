@@ -1,4 +1,5 @@
 import CommentSection from '@/components/CommentSection'
+import Footer from '@/components/Footer'
 import React from 'react'
 
 const comment = () => {
@@ -7,6 +8,7 @@ const comment = () => {
       <br />
       <CommentSection/>
       <br />
+      <Footer/>
     </div>
   )
 }
