@@ -26,10 +26,10 @@ export default function BlogCard() {
   return (
     <div className="flex h-screen">
       <div
-        className={`fixed z-40 top-0 left-0 w-64 bg-gray-800 text-white h-full p-4 overflow-y-auto transform ${
+        className={`fixed z-40 top-0 left-0 w-64 bg-gray-800 text-white h-full p-4 pt-12 overflow-y-auto transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } md:translate-x-0 transition-transform duration-300`}>
-        <h2 className="text-xl font-bold mb-4">Lectures</h2>
+        <h2 className="text-xl font-bold mb-4 mt-[10%]">Lectures</h2>
         <ul>
           {lectures.map((lecture) => (
             <li key={lecture.id} className="mb-4">
