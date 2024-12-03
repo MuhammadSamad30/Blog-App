@@ -49,7 +49,7 @@ export default function BlogCard() {
         {isSidebarOpen ? "Close" : "Menu"}
       </button>
 
-      <div className="flex-1 p-6 md:ml-10">
+      <div className="flex-1 p-6 md:ml-[20%]">
         {selectedLecture ? (
           <div>
             <h2 className="text-2xl font-bold mb-4 text-[#85e459]">{selectedLecture.title}</h2>
